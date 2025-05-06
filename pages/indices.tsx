@@ -4,7 +4,7 @@ import Head from "next/head";
 import type { GetServerSideProps } from "next";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { useSession, signOut } from "next-auth/react";
-import Header from "../app/components/Header";
+import Header from "../app/components/header";
 
 /* ---- types ------------------------------------------------------ */
 export type Entry = { title: string; slug: string };

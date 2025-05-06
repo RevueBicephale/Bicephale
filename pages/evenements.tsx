@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { getArticleData } from '../lib/articleService';
-import { categoryConfigMap } from '../config/categoryColors';
+import { categoryConfigMap } from '../config/category';
 import SharedCategoryPage from '../app/components/shared';
 import { Article } from '../types'; // Ensure you import your Article type
-import Header, { Category } from '../app/components/Header';
+import Header, { Category } from '../app/components/header';
 
 
 

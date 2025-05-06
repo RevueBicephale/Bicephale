@@ -1,8 +1,8 @@
 // /app/components/shared.tsx
 import React from 'react';
-import Header, { Category } from './Header';
+import Header, { Category } from './header';
 import Footer from './Footer';
-import { categoryConfigMap } from '../../config/categoryColors';
+import { categoryConfigMap } from '../../config/category';
 import { Article } from '../../types';
 
 interface SharedCategoryPageProps {
